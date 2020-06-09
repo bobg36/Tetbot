@@ -1,0 +1,24 @@
+===code.py===
+contains most of the code including main()
+
+===functions.py===
+contains movement functions for 1, 2, 3 and 4 wide blocks
+note: movement 2b is for L and J rotation 3, the rest is intuitive
+
+===quickGrab.py===
+grabs screen, can specify box (x1, y1, x2, y2)
+
+===keyPress.py===
+all the keyPresses required to play tetris (except hold)
+
+
+
+
+How to use this Tetris bot
+
+1. In code.py, change 'initPix' to where your piece first appears on the screen in column 4
+2. use pyautogui to find RGB values of initPix pixel, commands are below, type into terminal (I use VS code):
+    i) python
+    ii) import pyautogui
+    iii) pyautogui.displayMousePosition()
+3. run program, press w to start the bot, then start your tetris game
